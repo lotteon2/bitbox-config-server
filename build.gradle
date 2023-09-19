@@ -1,8 +1,16 @@
+buildscript {
+	dependencies {
+		classpath "io.github.gradle-nexus:publish-plugin:1.1.0"
+	}
+}
+
 plugins {
 	id 'java'
-	id 'org.springframework.boot' version '2.7.15'
-	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
 }
+
+apply plugin: 'io.github.gradle-nexus.publish-plugin'
+apply from: "${rootDir}/scripts/publish-maven.gradle"
+apply from: 'publish.gradle'
 
 group = 'io.github.lotteon2'
 version = '0.0.1-SNAPSHOT'
