@@ -13,7 +13,7 @@ apply from: "${rootDir}/scripts/publish-maven.gradle"
 apply from: 'publish.gradle'
 
 group = 'io.github.lotteon2'
-version = '0.0.1-SNAPSHOT'
+version = '0.0.2'
 
 java {
 	sourceCompatibility = '11'
@@ -23,7 +23,10 @@ repositories {
 	mavenCentral()
 }
 
-dependencies {}
+dependencies {
+	compileOnly 'org.projectlombok:lombok:1.18.28'
+	annotationProcessor 'org.projectlombok:lombok:1.18.28'
+}
 
 tasks.named('test') {
 	useJUnitPlatform()
