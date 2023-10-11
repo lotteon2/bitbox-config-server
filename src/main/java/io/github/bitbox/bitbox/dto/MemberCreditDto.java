@@ -1,6 +1,5 @@
 package io.github.bitbox.bitbox.dto;
 
-import io.github.bitbox.bitbox.enums.AuthorityType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -10,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-public class MemberAuthorityDto {
+public class MemberCreditDto {
     private String memberId;
-    private AuthorityType memberAuthority;
+    private int credit;
 }

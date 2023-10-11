@@ -5,8 +5,11 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public enum SubscriptionType {
-    ONE_DAY,
-    THREE_DAYS,
-    SEVEN_DAYS;
+public enum AuthorityType {
+    ADMIN,
+    MANAGER,
+    TEACHER,
+    GRADUATE,
+    TRAINEE,
+    GENERAL
 }

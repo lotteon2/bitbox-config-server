@@ -5,8 +5,9 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public enum SubscriptionType {
-    ONE_DAY,
-    THREE_DAYS,
-    SEVEN_DAYS;
+public enum TokenType {
+    ACCESS("Access"),
+    REFRESH("Refresh");
+
+    private final String value;
 }
