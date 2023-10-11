@@ -6,6 +6,8 @@ buildscript {
 
 plugins {
 	id 'java'
+	id 'org.springframework.boot' version '2.7.16'
+	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
 }
 
 apply plugin: 'io.github.gradle-nexus.publish-plugin'
@@ -13,7 +15,7 @@ apply from: "${rootDir}/scripts/publish-maven.gradle"
 apply from: 'publish.gradle'
 
 group = 'io.github.lotteon2'
-version = '0.0.3'
+version = '0.0.4.alpha-1'
 
 java {
 	sourceCompatibility = '11'
@@ -24,6 +26,7 @@ repositories {
 }
 
 dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation group: 'org.springframework.kafka', name: 'spring-kafka', version: '2.7.14'
 	implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.14.2'
 	implementation group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: '2.15.2'
