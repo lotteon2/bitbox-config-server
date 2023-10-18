@@ -6,8 +6,8 @@ import lombok.Getter;
 @Getter
 @AllArgsConstructor
 public enum TokenType {
-    ACCESS("Access"),
-    REFRESH("Refresh");
+    ACCESS(1209600000), // for test
+    REFRESH(86400000);
 
-    private final String value;
+    private final long value;
 }
