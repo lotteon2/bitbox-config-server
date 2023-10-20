@@ -13,7 +13,7 @@ apply from: "${rootDir}/scripts/publish-maven.gradle"
 apply from: 'publish.gradle'
 
 group = 'io.github.lotteon2'
-version = '0.0.5'
+version = '0.0.8'
 
 java {
 	sourceCompatibility = '11'
@@ -26,6 +26,7 @@ repositories {
 dependencies {
 	implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.14.2'
 	implementation group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: '2.15.2'
+	//implementation group: 'org.hibernate', name: 'hibernate-validator', version: '8.0.1.Final'
 	compileOnly 'org.projectlombok:lombok:1.18.28'
 	annotationProcessor 'org.projectlombok:lombok:1.18.28'
 }
