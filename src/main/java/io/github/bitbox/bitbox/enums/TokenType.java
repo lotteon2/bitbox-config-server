@@ -7,7 +7,8 @@ import lombok.Getter;
 @AllArgsConstructor
 public enum TokenType {
     ACCESS(1209600000), // for test
-    REFRESH(86400000);
+    REFRESH(86400000),
+    SESSION(15000);
 
     private final long value;
 }
