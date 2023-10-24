@@ -11,4 +11,5 @@ public class JwtPayload {
     private Long classId;
     private String memberNickname;
     private AuthorityType memberAuthority;
+    private String memberProfileImg;
 }
