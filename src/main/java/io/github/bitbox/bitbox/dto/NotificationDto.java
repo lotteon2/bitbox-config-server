@@ -1,6 +1,5 @@
 package io.github.bitbox.bitbox.dto;
 
-import io.github.bitbox.bitbox.enums.BoardType;
 import io.github.bitbox.bitbox.enums.NotificationType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -13,7 +12,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class NotificationDto {
     private NotificationType notificationType;
-    private BoardType boardType;
+    private String boardType;
     private String receiverId;
     private Long boardId;
     private String senderNickname;
