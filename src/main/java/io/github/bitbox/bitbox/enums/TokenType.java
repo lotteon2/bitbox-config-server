@@ -6,7 +6,7 @@ import lombok.Getter;
 @Getter
 @AllArgsConstructor
 public enum TokenType {
-    ACCESS(3600000),
+    ACCESS(60000),
     REFRESH(86400000),
     SESSION(15000);
 
