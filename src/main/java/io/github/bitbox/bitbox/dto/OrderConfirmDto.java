@@ -5,11 +5,10 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-@Builder
 @Getter
-@AllArgsConstructor
 @NoArgsConstructor
-public class MemberCreditDto {
-    private String memberId;
-    private int credit;
+@AllArgsConstructor
+@Builder
+public class OrderConfirmDto {
+    private Long productAmount;
 }

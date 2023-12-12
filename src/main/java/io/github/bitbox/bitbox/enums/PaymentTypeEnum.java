@@ -5,10 +5,8 @@ import lombok.Getter;
 
 @AllArgsConstructor
 @Getter
-public enum AttendanceStatus {
-    ABSENT,
-    TARDY,
-    ATTENDANCE,
-    GO_OUT,
-    LEAVE_EARLY
+public enum PaymentTypeEnum {
+    CREDIT,
+    ORDER,
+    SUBSCRIPTION
 }

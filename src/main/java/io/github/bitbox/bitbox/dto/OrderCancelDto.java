@@ -5,14 +5,14 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-@Builder
 @Getter
-@AllArgsConstructor
 @NoArgsConstructor
-public class MemberPaymentDto {
-    private String memberId;
-    private Long memberCredit;
-    private String tid;
+@AllArgsConstructor
+@Builder
+public class OrderCancelDto {
+    private Long consumerId;
+    private String ordersId;
+    private String couponCode;
+    private Long point;
     private Long cancelAmount;
-    private Long cancelTaxFreeAmount;
 }
