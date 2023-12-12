@@ -10,12 +10,11 @@ public class KafkaTopicNameInfo {
     public static final String CANCEL_ORDER_COUPON = "cancel-order-coupon";
     public static final String CANCEL_ORDER_PAYMENT = "cancel-order-payment";
     public static final String CANCEL_ORDER_STOCK = "cancel-order-stock";
-    public static final String ORDER_TOPIC_NAME = "reduce-point";
+    public static final String REDUCE_POINT = "reduce-point";
     public static final String USE_COUPON = "use-coupon";
     public static final String REDUCE_STOCK = "reduce-stock";
     public static final String ROLLBACK_COUPON = "rollback_coupon";
     public static final String CANCEL_KAKAOPAY = "cancel-kakaopay";
-    public static final String PAY_CANCEL_TOPIC = "cancel-order-payment";
     public static final String UPDATE_CREDIT = "update-credit";
     public static final String CREATE_SUBSCRIPTION = "create-subscription";
     public static final String UPDATE_SELLER_TO_PRODUCT = "update-seller-to-search";
