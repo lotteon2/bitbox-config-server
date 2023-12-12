@@ -30,4 +30,6 @@ public class KafkaTopicNameInfo {
     public static final String UPDATE_IS_ACTIVATE = "update-is-activate";
     public static final String UPDATE_CONSUMER_TO_REVIEW = "update-consumer-to-review";
     public static final String UPDATE_REVIEW_POINT = "update-review-point";
+    public static final String BID_CHAT = "bid-chat";
+    public static final String BID_INFO = "bid-info";
 }
