@@ -19,5 +19,4 @@ public class UserCouponUpdateDto {
     private Long consumerId;
     private String couponCode;
     private Long couponAmount;
-    private Long totalAmount;
 }

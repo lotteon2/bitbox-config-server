@@ -18,4 +18,5 @@ import lombok.NoArgsConstructor;
 public class UserPointUpdateDto {
     private Long consumerId;
     private Long point;
+    private Long totalAmount;
 }
