@@ -1,7 +1,9 @@
 package io.github.bitbox.bitbox.dto;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 /**
     domain : payment, consumer
@@ -11,6 +13,8 @@ import lombok.Getter;
  */
 @Getter
 @Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class CreditUpdateDto {
     private Long consumerId;
     private Long credit;

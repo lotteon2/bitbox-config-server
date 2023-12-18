@@ -1,7 +1,9 @@
 package io.github.bitbox.bitbox.dto;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 /**
      domain : order, consumer, payment
@@ -11,6 +13,8 @@ import lombok.Getter;
  */
 @Builder
 @Getter
+@NoArgsConstructor
+@AllArgsConstructor
 public class KakaoPayCancelDto {
     private String tid;
     private Long cancelAmount;
