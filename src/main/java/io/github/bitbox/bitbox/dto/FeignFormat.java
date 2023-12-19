@@ -1,6 +1,7 @@
 package io.github.bitbox.bitbox.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import io.github.bitbox.bitbox.enums.FailureTypeEnum;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -21,6 +22,6 @@ public class FeignFormat<T> {
     private Integer code;
     private String message;
     private String detail;
-    private String failure;
+    private FailureTypeEnum failure;
     private T data;
 }

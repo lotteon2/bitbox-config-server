@@ -22,6 +22,9 @@ public enum FailureTypeEnum {
     INSUFFICIENT_MIN_ORDER_PRICE("쿠폰 최소 사용 금액 미달"),
     NOT_FOUND_COUPON("찾을 수 없는 쿠폰"),
     EXPIRED_COUPON("만료된 쿠폰"),
+    INSUFFICIENT_STOCK("재고가 부족합니다"),
+    LACK_OF_STOCK("재고가 부족합니다."),
+    MISMATCH_TOTAL_PRODUCT_AMOUNT("상품이 총 금액이 일치하지 않습니다."),
     INCORRECT_COUPON_DISCOUNT_AMOUNT("쿠폰 코드와 할인 금액 불일치");
 
     private final String value;
