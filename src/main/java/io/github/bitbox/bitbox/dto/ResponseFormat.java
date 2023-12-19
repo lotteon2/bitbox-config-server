@@ -1,6 +1,7 @@
 package io.github.bitbox.bitbox.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import io.github.bitbox.bitbox.enums.FailureTypeEnum;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -21,7 +22,7 @@ public class ResponseFormat<T> {
     private String detail;
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    private String failure;
+    private FailureTypeEnum failure;
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private final T data;
