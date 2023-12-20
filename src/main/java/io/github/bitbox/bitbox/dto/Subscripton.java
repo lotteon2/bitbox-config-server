@@ -12,4 +12,5 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo;
         @JsonSubTypes.Type(value = KakaoSubscription.class, name = "kakao"),
 })
 public interface Subscripton {
+    void cancel(Long paymentAmount, Long taxFreeAmount);
 }
