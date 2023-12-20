@@ -17,6 +17,7 @@ public class SubscriptionDto {
     private Long consumerId;
     private SubscriptionTypeEnum subscriptionType;
     private Long paymentAmount;
+    private Long taxFreeAmount;
     private LocalDateTime startDate;
     private LocalDateTime endDate;
     private PaymentMethodEnum paymentMethod;

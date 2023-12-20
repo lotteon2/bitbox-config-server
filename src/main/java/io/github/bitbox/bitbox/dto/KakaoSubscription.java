@@ -12,5 +12,6 @@ import lombok.NoArgsConstructor;
 public class KakaoSubscription implements Subscripton{
     private String sid;
     private String cid;
+    private String tid;
     private String orderId;
 }
