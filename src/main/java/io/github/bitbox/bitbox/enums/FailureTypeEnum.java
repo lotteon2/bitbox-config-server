@@ -25,7 +25,8 @@ public enum FailureTypeEnum {
     INSUFFICIENT_STOCK("재고가 부족합니다"),
     LACK_OF_STOCK("재고가 부족합니다."),
     MISMATCH_TOTAL_PRODUCT_AMOUNT("상품이 총 금액이 일치하지 않습니다."),
-    INCORRECT_COUPON_DISCOUNT_AMOUNT("쿠폰 코드와 할인 금액 불일치");
+    INCORRECT_COUPON_DISCOUNT_AMOUNT("쿠폰 코드와 할인 금액 불일치"),
+    EXISTING_SUBSCRIPTION_PAYMENT("이미 정기 구독에 가입되어 있습니다.");
 
     private final String value;
 
