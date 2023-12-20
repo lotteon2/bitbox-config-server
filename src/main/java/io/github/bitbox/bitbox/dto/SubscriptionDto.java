@@ -21,8 +21,4 @@ public class SubscriptionDto {
     private LocalDateTime endDate;
     private PaymentMethodEnum paymentMethod;
     private Subscripton subscripton;
-
-    public void setSubscripton(Subscripton subscripton) {
-        this.subscripton = subscripton;
-    }
 }
