@@ -12,7 +12,6 @@ import java.time.LocalDateTime;
 @Builder
 @Getter
 public class ConsumerRegularPaymentsCouponDto {
-
     private Long consumerId;
     private LocalDateTime successedAt; // 양반 구독 결제 완료 날짜
 }
