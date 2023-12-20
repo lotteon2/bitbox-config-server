@@ -15,7 +15,7 @@ public class KakaoSubscription implements Subscripton{
     private String tid;
     private String orderId;
 
-    public void cancel(Long paymentAmount, Long taxFreeAmount) {
-        KakaoPayCancelDto.builder().tid(tid).cancelAmount(paymentAmount).cancelTaxFreeAmount(taxFreeAmount).build();
+    public KakaoPayCancelDto cancel(Long paymentAmount, Long taxFreeAmount) {
+        return KakaoPayCancelDto.builder().tid(tid).cancelAmount(paymentAmount).cancelTaxFreeAmount(taxFreeAmount).build();
     }
 }
