@@ -31,4 +31,5 @@ public class KafkaTopicNameInfo {
     public static final String UPDATE_REVIEW_POINT = "update-review-point";
     public static final String BID_CHAT = "bid-chat";
     public static final String BID_INFO = "bid-info";
+    public static final String ADD_POINT = "add-point";
 }
