@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class SellerInfoDto {
-
     private String storeName;
     private String storeImageUrl;
+    private Long sellerId;
 }
