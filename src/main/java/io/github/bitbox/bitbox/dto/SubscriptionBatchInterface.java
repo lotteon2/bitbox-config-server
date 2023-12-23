@@ -12,4 +12,5 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo;
         @JsonSubTypes.Type(value = KakaoBatchDto.class, name = "kakaoBatch"),
 })
 public interface SubscriptionBatchInterface {
+    String settingSubscriptionDto();
 }
