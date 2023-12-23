@@ -9,8 +9,7 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo;
         visible = true
 )
 @JsonSubTypes({
-        @JsonSubTypes.Type(value = KakaoBatchDto.class, name = "kakao"),
+        @JsonSubTypes.Type(value = KakaoBatchDto.class, name = "kakaoBatch"),
 })
 public interface SubscriptionBatchInterface {
-    String getSubscriptionDto();
 }
