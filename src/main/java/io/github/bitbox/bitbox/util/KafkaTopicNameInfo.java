@@ -33,4 +33,5 @@ public class KafkaTopicNameInfo {
     public static final String BID_INFO = "bid-info";
     public static final String ADD_POINT = "add-point";
     public static final String ISSUE_REGULAR_PAYMENTS_COUPON = "issue-regular-payments-coupon";
+    public static final String PAYMENT_SUBSCRIPTION = "payment-subscription";
 }

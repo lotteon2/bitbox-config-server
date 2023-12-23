@@ -13,8 +13,19 @@ public class KakaoBatchDto implements SubscriptionBatchInterface {
     private String cid;
     private String sid;
     private String partnerOrderId;
-    private Long partnerUserId;
+    private String partnerUserId;
     private Long quantity;
     private Long totalAmount;
     private Long taxFreeAmount;
+
+    @Override
+    public String getSubscriptionDto() {
+        return "cid=" + cid
+                + "&sid=" + sid
+                + "&partner_order_id=" + partnerOrderId
+                + "&partner_user_id=" + partnerUserId
+                + "&quantity=" + quantity
+                + "&total_amount=" + totalAmount
+                + "&tax_free_amount=" + taxFreeAmount;
+    }
 }
