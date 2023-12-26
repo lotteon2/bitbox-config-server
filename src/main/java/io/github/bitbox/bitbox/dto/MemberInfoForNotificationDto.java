@@ -14,9 +14,9 @@ import java.time.LocalDateTime;
 @Builder
 @Getter
 public class MemberInfoForNotificationDto {
-
     private Long recipientId;
     private RecipientTypeEnum recipientType;
     private NotificationTypeEnum notificationType;
     private LocalDateTime createdAt;
+    private OrderInfoDto orderInfoDto;
 }
