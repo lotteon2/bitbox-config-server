@@ -18,5 +18,4 @@ public class MemberInfoForNotificationDto {
     private RecipientTypeEnum recipientType;
     private NotificationTypeEnum notificationType;
     private LocalDateTime createdAt;
-    private OrderInfoDto orderInfoDto;
 }
