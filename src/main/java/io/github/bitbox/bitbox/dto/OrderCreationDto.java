@@ -41,4 +41,7 @@ public class OrderCreationDto {
     private PaymentTypeEnum paymentType;
     private PaymentMethodEnum paymentMethod;
     private PaymentMethod paymentInfo;
+
+    // 장바구니 주문 여부
+    private boolean isCart;
 }
