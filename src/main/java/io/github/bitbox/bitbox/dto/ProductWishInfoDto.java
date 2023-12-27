@@ -10,12 +10,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class ProductWishInfoDto {
-
     private String productId;
     private String productName;
     private Long productPrice;
     private String productThumbnailImage;
     private Long stockQuantity;
     private Boolean isActivate;
-
+    private Boolean isDeleted;
 }
