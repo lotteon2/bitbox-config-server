@@ -36,5 +36,5 @@ public class KafkaTopicNameInfo {
     public static final String PAYMENT_SUBSCRIPTION = "payment-subscription";
     public static final String SEND_NOTIFICATION = "send-notification";
     public static final String SEND_ERROR_NOTIFICATION = "send-error-notification";
-    public static final String SETTLEMENT_FILE_UPDATE = "settlement-file-upload";
+    public static final String SETTLEMENT_FILE_UPLOAD = "settlement-file-upload";
 }
