@@ -18,4 +18,6 @@ public class OrderCancelDto {
     private Long point;
     private Long cancelAmount;
     private List<ProductUpdateDto> productUpdateDtoList;
+    private String cancelOrderId;
+    private List<Long> cancelProductOrderId;
 }

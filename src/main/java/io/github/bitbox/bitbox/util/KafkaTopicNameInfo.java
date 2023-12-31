@@ -36,5 +36,8 @@ public class KafkaTopicNameInfo {
     public static final String PAYMENT_SUBSCRIPTION = "payment-subscription";
     public static final String SEND_NOTIFICATION = "send-notification";
     public static final String SEND_ERROR_NOTIFICATION = "send-error-notification";
-    public static final String SETTLEMENT_FILE_UPLOAD = "settlement-file-upload";
+    public static final String RECOVER_CANCEL_ORDER_STOCK = "recover-cancel-order-stock";
+    public static final String RECOVER_CANCEL_ORDER_COUPON = "recover-cancel-order-coupon";
+    public static final String RECOVER_CANCEL_ORDER_POINT = "recover-cancel-order-point";
+    public static final String RECOVER_CANCEL_ORDER = "recover-cancel-order";
 }
