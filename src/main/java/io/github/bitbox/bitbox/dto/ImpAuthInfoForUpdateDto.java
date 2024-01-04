@@ -11,6 +11,7 @@ import lombok.NoArgsConstructor;
 @Getter
 public class ImpAuthInfoForUpdateDto {
 
+    private Long consumerId;
     private String name;
     private String phoneNumber;
 }
