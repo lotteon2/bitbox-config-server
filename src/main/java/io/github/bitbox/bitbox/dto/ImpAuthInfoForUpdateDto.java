@@ -13,5 +13,6 @@ public class ImpAuthInfoForUpdateDto {
 
     private Long consumerId;
     private String name;
+    private Integer age;
     private String phoneNumber;
 }

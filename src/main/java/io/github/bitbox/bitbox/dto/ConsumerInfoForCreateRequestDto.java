@@ -13,5 +13,6 @@ public class ConsumerInfoForCreateRequestDto {
   private Long consumerId;
   private String email;
   private String name;
+  private Integer age;
   private String phoneNumber;
 }
