@@ -13,7 +13,7 @@ apply from: "${rootDir}/scripts/publish-maven.gradle"
 apply from: 'publish.gradle'
 
 group = 'io.github.lotteon2'
-version = '1.3.7'
+version = '1.3.8'
 
 java {
 	sourceCompatibility = '11'
