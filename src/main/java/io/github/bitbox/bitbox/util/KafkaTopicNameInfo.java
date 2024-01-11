@@ -41,4 +41,5 @@ public class KafkaTopicNameInfo {
     public static final String RECOVER_CANCEL_ORDER_COUPON = "recover-cancel-order-coupon";
     public static final String RECOVER_CANCEL_ORDER_POINT = "recover-cancel-order-point";
     public static final String RECOVER_CANCEL_ORDER = "recover-cancel-order";
+    public static final String PRODUCT_ORDER_REVIEW_WRITE_STATUS_UPDATE = "product-order-review-write-status-update";
 }
