@@ -29,19 +29,7 @@ public class AuctionOrderDto {
     private String productImg;
 
 
-    public static AuctionOrderDto of(Long consumerId, Long totalPrice, String productId,
-                                     String productName, Long productPrice, Long sellerId, String sellerName, String productImg) {
-        return AuctionOrderDto.builder()
-                .consumerId(consumerId)
-                .orderDate(LocalDateTime.now())
-                .totalPrice(totalPrice)
-                .paymentMethod(PaymentMethodEnum.CREDIT)
-                .productId(productId)
-                .productName(productName)
-                .productPrice(productPrice)
-                .sellerId(sellerId)
-                .sellerName(sellerName)
-                .productImg(productImg)
-                .build();
+    public static AuctionOrderDto of(Long consumerId, Long totalPrice, String productId, String productName, Long productPrice, Long sellerId, String sellerName, String productImg, Long productCount) {
+        return builder().consumerId(consumerId).orderDate(LocalDateTime.now()).totalPrice(totalPrice).paymentMethod(PaymentMethodEnum.CREDIT).productId(productId).productName(productName).productPrice(productPrice).sellerId(sellerId).sellerName(sellerName).productImg(productImg).productCount(productCount).build();
     }
 }
