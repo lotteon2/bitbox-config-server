@@ -11,24 +11,24 @@ import lombok.NoArgsConstructor;
 @Getter
 public class AgeDistributionForShowResponseDto {
 
-    private Long teenage;
-    private Long twenty;
-    private Long thirty;
-    private Long fortyOver;
+    private Double teenage;
+    private Double twenty;
+    private Double thirty;
+    private Double fortyOver;
 
-    public void assignTeenage(Long total) {
+    public void assignTeenage(Double total) {
         this.teenage = total;
     }
 
-    public void assignTwenty(Long total) {
+    public void assignTwenty(Double total) {
         this.twenty = total;
     }
 
-    public void assignThirty(Long total) {
+    public void assignThirty(Double total) {
         this.thirty = total;
     }
 
-    public void assignFortyOver(Long total) {
+    public void assignFortyOver(Double total) {
         this.fortyOver = total;
     }
 }
