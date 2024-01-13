@@ -43,5 +43,5 @@ public class OrderCreationDto {
     private PaymentMethod paymentInfo;
 
     // 장바구니 주문 여부
-    private boolean isCart;
+    private Boolean cart;
 }
