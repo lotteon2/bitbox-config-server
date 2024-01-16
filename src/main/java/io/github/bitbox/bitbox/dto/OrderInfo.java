@@ -16,5 +16,5 @@ public class OrderInfo {
     private String ordersId;
     private LocalDateTime orderDate;
     private OrderStatusEnum orderStatus;
-    private boolean isAuction;
+    private Boolean isAuction;
 }

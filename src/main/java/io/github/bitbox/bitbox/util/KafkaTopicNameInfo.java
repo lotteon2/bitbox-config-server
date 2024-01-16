@@ -20,6 +20,7 @@ public class KafkaTopicNameInfo {
     public static final String UPDATE_SELLER_TO_PRODUCT = "update-seller-to-search";
     public static final String DELETE_SELLER_TO_PRODUCT = "delete-seller-to-product";
     public static final String DELETE_SELLER_TO_REVIEW = "delete-seller-to-review";
+    public static final String DELETE_SELLER_AUTHENTICATION = "delete-seller-authentication";
     public static final String CREATE_PRODUCT_TO_SEARCH = "create-product-to-search";
     public static final String DELETE_PRODUCT_TO_SEARCH = "delete-product-to-search";
     public static final String DELETE_PRODUCT_TO_WISH_CART = "delete-product-to-wish-cart";
@@ -43,4 +44,6 @@ public class KafkaTopicNameInfo {
     public static final String RECOVER_CANCEL_ORDER = "recover-cancel-order";
     public static final String PRODUCT_ORDER_REVIEW_WRITE_STATUS_UPDATE = "product-order-review-write-status-update";
     public static final String BID_RESULT = "bid-result";
+    public static final String COUPON_RECEIPT = "coupon-receipt";
+
 }
