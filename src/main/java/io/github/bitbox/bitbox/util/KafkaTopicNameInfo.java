@@ -45,5 +45,5 @@ public class KafkaTopicNameInfo {
     public static final String PRODUCT_ORDER_REVIEW_WRITE_STATUS_UPDATE = "product-order-review-write-status-update";
     public static final String BID_RESULT = "bid-result";
     public static final String COUPON_RECEIPT = "coupon-receipt";
-
+    public static final String AUCTION_NUMBERS = "auction-numbers";
 }
